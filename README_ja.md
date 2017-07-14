@@ -53,12 +53,13 @@ python:3.6-alpine (公式イメージ)
 
 ## 導入済みパッケージ
 
-- sphinx 1.5.3
+- sphinx 1.6.3
 - sphinxcontrib-blockdiag 1.5.5
 - sphinxcontrib-actdiag 0.8.5
 - sphinxcontrib-nwdiag 0.9.5
 - sphinxcontrib-seqdiag 0.8.5
 - sphinxcontrib-plantuml 0.8.1
+- recommonmark 0.4.0
 
 ## 導入済みソフトウェア
 
@@ -113,4 +114,3 @@ gitlab-ci.ymlやconf.pyの記載内容の参考にしてください。gitlab.io
 - サンプルSphinxプロジェクトとgitlab-ciの例
 
   see [gitlab repogitory](https://gitlab.com/tsgkdt/sphinx-plantuml/)
-  

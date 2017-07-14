@@ -3,7 +3,7 @@
 
 FROM python:3.6-alpine
 
-MAINTAINER tsgkdt <tsgkadot@gmail.com>
+MAINTAINER k_imai_c <mm.kimaic@gmail.com>
 
 RUN apk --no-cache add openjdk8-jre graphviz jpeg-dev zlib-dev ttf-dejavu freetype-dev git && \
     apk --no-cache --virtual=dependencies add build-base python-dev py-pip wget
@@ -36,7 +36,8 @@ RUN \
     sphinxcontrib-actdiag \
     sphinxcontrib-nwdiag \
     sphinxcontrib-seqdiag \
-    sphinxcontrib-plantuml && \
+    sphinxcontrib-plantuml \
+    recommonmark && \
     # for Build Infomation
     pip freeze && \ 
     apk del dependencies
